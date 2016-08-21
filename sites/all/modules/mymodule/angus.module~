@@ -1,0 +1,57 @@
+<?PHP
+/***********************************************************************************
+	
+	GENERAL PURPOSE UTILITY MODULE
+	
+	Start				:	21 Nov 2012
+	copyright           :	(C) 2012 Varshyl Tech
+	
+************************************************************************************/
+
+global $base_url,$user;
+
+//hook to set permission attributes
+
+function angus_perm(){
+		
+		return array('Home Page Views');
+}
+	
+
+
+function angus_theme(){
+	
+	return array(
+	
+		'homepage_view' => array(
+		'template' => 'homepage-view',
+		),
+	);
+
+}
+
+
+function angus_menu(){
+	$items=array();
+	$items['home'] = array(
+		'page callback'    => 'homepage',
+		'access arguments' => array('access content'),
+		'type'             => MENU_NORMAL_ITEM,
+	);
+	
+	return $items;
+}	
+
+
+function homepage(){
+	
+	global $base_url;
+	/* 
+	 drupal_add_css(drupal_get_path('module', 'IronTouch') . '/css/style.css');
+	 drupal_add_js(drupal_get_path('module', 'IronTouch') . '/js/jquery.js');
+	 
+	*/
+	return theme('homepage_view');
+	
+}
+

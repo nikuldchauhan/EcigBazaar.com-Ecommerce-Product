@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Advanced Newsletter Subscribe PRO</name>
+    <code>adv_newsletter</code>
+    <version>1.0</version>
+    <author>anh.to87@gmail.com</author>
+    <link>http://www.opcartstore.com</link>
+    <file path="catalog/controller/common/header.php">
+        <operation>
+            <search trim="true">
+                <![CDATA[public function index() {]]>
+            </search>
+            <add position="after">
+                <![CDATA[
+        $this->document->addScript('media/newsletter/js/jquery.subscribe-better.js');
+        $this->document->addScript('media/newsletter/js/main.js');
+        $this->document->addStyle('media/newsletter/css/stylesheet.css');
+        $this->document->addStyle('media/newsletter/css/subscribe-better.css');
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file path="admin/controller/marketing/contact.php">
+        <operation>
+            <search index="0" trim="true">
+                <![CDATA[$results = $this->model_sale_customer->getCustomers($customer_data);]]>
+            </search>
+            <add position="after">
+                <![CDATA[
+                        if ($this->config->get('advanced_newsletter_status'))
+                        {
+                            $this->load->model('module/adv_newsletter');
+                            $filter_data = array(
+                                'filter_status'  => (!empty($this->config->get('advanced_newsletter_send_for')) ? implode(",", $this->config->get('advanced_newsletter_send_for')) : 1)
+                            );
+                            $emails_newsletter    = $this->model_module_adv_newsletter->getEmails($filter_data);
+
+                            $results = array_merge($results, $emails_newsletter);
+                        }
+                ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

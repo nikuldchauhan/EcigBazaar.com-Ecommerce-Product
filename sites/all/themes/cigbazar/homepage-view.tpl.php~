@@ -1,0 +1,184 @@
+<?php
+global $base_url;
+$x=0;
+$i=0;
+$a=0;
+$img = $base_url."/sites/default/files/";
+$statictid = taxonomy_select_nodes(array(16)); 
+$flotid = taxonomy_select_nodes(array(17)); 
+$vid = 2;
+/*
+print "<pre>";
+print_r($statictid);
+print "</pre>";
+*/
+
+?>
+<?php
+if ($terms = taxonomy_get_tree($vid)) {
+  foreach ($terms as $term) {	
+  	$tid[] = $term->tid;
+  	$title[] = $term->name;
+  	$termdetail = taxonomy_term_load($tid[$x]);
+	
+  	$trmimgfile[] = $termdetail->uc_catalog_image['und'][0]['filename'];	
+  	$x++;
+  }
+  $cnt = count($trmimgfile);
+  $loop = round($cnt/4);
+}
+?>		
+	
+
+
+
+<div id="container_content">
+	<div class="center">
+		<div id="homepage_slider_container">
+			<h3>SELECT YOUR CUTS</h3>
+			<div id="homepage_prev">Prev</div>
+			<div id="homepage_next">Next</div>
+			<div id="homepage_slider">
+<?php			
+			for($y=0; $y<$loop; $y++)
+			{
+				
+		?>	
+				<div class="homepage_item">
+				<?php
+					for($k=0; $k<4; $k++){	
+					$image = $img.$trmimgfile[$a];
+				$a++;	
+				if($a==$cnt){
+				$a=0;				
+				//break;		
+				}
+				?>
+					<div class="product subcat">
+						<h3><?php print l($title[$a],'catalog/'.$tid[$a]);?></h3>
+						
+						<p><a href="<?php print drupal_lookup_path('alias', 'catalog/'.$tid[$a]);?>"><img src="<?=$image;?>" alt="" /></a></p>
+					</div>
+					<?php }
+					
+					?>
+				</div>	
+				<?php
+				}
+				?>
+				
+				
+			</div>
+			<div id="pager" class="pager"></div>
+		</div>
+	</div>
+</div>
+
+
+<div id="container_intro">
+	<div class="center">
+<div class="intro_col">
+<div id="intro_prev">Prev</div>
+				<div id="intro_next">Next</div>
+				<div id="intro_slider">
+<?php
+for ($i=0; $i<2; $i++){
+$nod = node_load($flotid[$i]);
+/*
+print "<pre>";
+print_r($nod);
+print "</pre>";
+*/
+$imagepath = $img."/".$nod->field_image_homecontent['und'][0]['filename'];
+$title = $nod->title;
+$nid = $nod->nid;
+$body = substr($nod->body['und'][0]['value'],0,250);
+
+
+?>
+<div class="intro_item">
+						<img src="<?=$imagepath;?>">
+						<h2 class="freehand"><?=$title;?></h2>
+						<p><?=$body;?> <strong><?php print l("Read More",'node/'.$nid);?></strong></p>
+					</div>
+
+		<!--
+<img src="<?=$imagepath;?>">
+<div>
+<?=$title;?>
+</div>
+<div>
+<?=$body;?>
+</div>
+<div>
+<?php print l("Red More",'node/'.$nid);?>
+</div>			-->
+<?php } ?>
+</div>
+</div>
+<?php
+for ($i=0; $i<2; $i++){
+$nod = node_load($statictid[$i]);
+/*
+print "<pre>";
+print_r($nod);
+print "</pre>";
+*/
+$imagepath = $img."/".$nod->field_image_homecontent['und'][0]['filename'];
+$title = $nod->title;
+$nid = $nod->nid;
+$body = substr($nod->body['und'][0]['value'],0,250);
+
+?>
+<div class="intro_col">
+				<img src="<?=$imagepath;?>" alt="" />
+				<h2 class="freehand"><?=$title;?></h2>
+				<p><?=$body;?> <strong><?php print l("Read More",'node/'.$nid);?></strong></p>
+			</div>
+<!--
+<img src="<?=$imagepath;?>">
+<div>
+<?=$title;?>
+</div>
+<div>
+<?=$body;?>
+</div>
+<div>
+<?php print l("Red More",'node/'.$nid);?>
+</div>
+-->
+<?php
+}
+?>
+</div>
+</div>
+
+
+<?php
+/*
+if ($terms = taxonomy_get_tree($vid)) {
+  foreach ($terms as $term) {
+  	print $tid = $term->tid;
+  	$termdetail = taxonomy_term_load($tid);
+  	$trmimgfile = $termdetail->uc_catalog_image['und'][0]['filename'];
+  	?>
+  	<img src="<?=$base_url/$trmimgfile?>">
+  	<?php
+  	
+  	print "<pre>";
+print_r(taxonomy_term_load($tid));
+print "</pre>";
+      // Do something with $term->tid or $term->name
+      
+  }
+}
+*/
+?>
+<?php
+/*
+for($i=0;$i<10; $i++){
+
+	print $tid[$i];	
+	}
+	*/
+?>	

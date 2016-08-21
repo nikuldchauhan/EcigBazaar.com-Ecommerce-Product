@@ -1,0 +1,86 @@
+<?php
+//print_r($user);
+global $base_url;
+$path = $base_url."/user";
+if($user->uid!='1' && $user->uid!='2')
+{
+drupal_goto($path);
+}
+
+?>
+<div class="left clearfix">
+<div class="admin-panel">
+	<h3>Content Management</h3>
+	<div class="body">
+	<ul class="admin-list">
+		<li class="leaf"><a href="node/add/product">Add Product</a>
+			<div class="description">Description.</div>
+		</li>
+		<li class="leaf"><a href="<?=$base_url;?>/admin/structure/taxonomy/catalog">Add Product Category</a>
+			<div class="description">Description.</div>
+		</li>
+		<li class="leaf"><a href="node/add/page">Add Basic Content</a>
+			<div class="description">Description.</div>
+		</li>
+	</ul>
+	</div>
+</div>
+</div>
+
+<div class="right clearfix">
+<div class="admin-panel">
+	<h3>Orders</h3>
+	<div class="body">
+	<ul class="admin-list">
+		<li class="leaf"><a href="admin/store/orders/view">View Order</a>
+			<div class="description">View and process the orders received through your website.</div>
+		</li>
+		<li class="leaf"><a href="admin/store/orders/create">Create order</a>
+			<div class="description">Create an empty new order.</div>
+		</li>
+	</ul>
+	</div>
+</div>
+</div>
+
+<div class="right clearfix">
+<div class="admin-panel">
+	<h3>Customers</h3>
+	<div class="body">
+	<ul class="admin-list">
+		<li class="leaf"><a href="admin/store/customers/view">View customers</a>
+			<div class="description">View and search customer information.</div>
+		</li>
+		
+	</ul>
+	</div>
+</div>
+</div>
+
+<div class="right clearfix">
+<div class="admin-panel">
+	<h3>Products</h3>
+	<div class="body">
+	<ul class="admin-list">
+		<li class="leaf"><a href="admin/store/products/view">View products</a>
+			<div class="description">View and search products available through your website..</div>
+		</li>
+		
+	</ul>
+	</div>
+</div>
+</div>
+
+<div class="right clearfix">
+<div class="admin-panel">
+	<h3>User management</h3>
+	<div class="body">
+	<ul class="admin-list">
+		<li class="leaf"><a href="admin/people">Manage User</a>
+			<div class="description">Description.</div>
+		</li>
+		
+	</ul>
+	</div>
+</div>
+</div>

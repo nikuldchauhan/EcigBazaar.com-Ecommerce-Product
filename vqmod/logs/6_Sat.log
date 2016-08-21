@@ -1,0 +1,294 @@
+---------- Date: 2016-08-20 15:07:35 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer&amp;token=2ec214f8039e79c54774e61c84922624
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:08:42 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer&amp;token=2ec214f8039e79c54774e61c84922624
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:08:46 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/approve&amp;token=2ec214f8039e79c54774e61c84922624
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:10:19 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer&amp;token=2ec214f8039e79c54774e61c84922624
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:10:37 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/update&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=396
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:10:39 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/history&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=396
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:10:39 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/transaction&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=396
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:10:39 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/reward&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=396
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:14:59 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer&amp;token=2ec214f8039e79c54774e61c84922624
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:15:02 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/update&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=1814
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:15:03 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/history&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=1814
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:15:03 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/transaction&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=1814
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:15:03 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer/reward&amp;token=2ec214f8039e79c54774e61c84922624&amp;customer_id=1814
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:15:12 ~ IP : 173.196.134.228 ----------
+REQUEST URI : /admin/index.php?route=sale/customer&amp;token=2ec214f8039e79c54774e61c84922624
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/language/english/sale/customer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $_['heading_title']         = 'Customers';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:26:11 ~ IP : 96.37.123.111 ----------
+REQUEST URI : /index.php?route=checkout/confirm
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : catalog/model/checkout/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): public function editOrder($order_id, $data) {
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 15:27:34 ~ IP : 96.37.123.111 ----------
+REQUEST URI : /index.php?route=payment/authorizenet_aim/send
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : catalog/model/checkout/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): public function editOrder($order_id, $data) {
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 16:01:38 ~ IP : 208.54.4.171 ----------
+REQUEST URI : /admin/index.php?route=sale/order/info&amp;order_id=213&amp;token=eeb3d12718dd4d48913f9e4a6cd3562e
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/controller/sale/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['invoice'] = $this->url->link('sale/order/invoice', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 16:01:39 ~ IP : 208.54.4.171 ----------
+REQUEST URI : /admin/index.php?route=sale/order/history&amp;token=eeb3d12718dd4d48913f9e4a6cd3562e&amp;order_id=213
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/controller/sale/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['invoice'] = $this->url->link('sale/order/invoice', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 16:01:44 ~ IP : 208.54.4.171 ----------
+REQUEST URI : /admin/index.php?route=sale/order&amp;token=eeb3d12718dd4d48913f9e4a6cd3562e
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/controller/sale/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['invoice'] = $this->url->link('sale/order/invoice', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 16:01:51 ~ IP : 172.56.16.201 ----------
+REQUEST URI : /admin/index.php?route=sale/order/info&amp;token=eeb3d12718dd4d48913f9e4a6cd3562e&amp;order_id=214
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/controller/sale/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['invoice'] = $this->url->link('sale/order/invoice', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-20 16:01:52 ~ IP : 172.56.16.201 ----------
+REQUEST URI : /admin/index.php?route=sale/order/history&amp;token=eeb3d12718dd4d48913f9e4a6cd3562e&amp;order_id=214
+MOD DETAILS:
+   modFile   : /home/ecigadmin/ecigbazaar.com/vqmod/xml/irs_import_export_order_products_categories_customer_to_210X.xml
+   id        : irs_import_export_order_products_categories_customer_to_2101
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/controller/sale/order.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['invoice'] = $this->url->link('sale/order/invoice', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+

@@ -1,0 +1,64 @@
+<?PHP
+/***********************************************************************************
+	
+	GENERAL PURPOSE UTILITY MODULE
+	
+	Start				:	06 July 2011
+	copyright           :	(C) 2011 Varshyl Tech
+	
+************************************************************************************/
+
+global $base_url,$user;
+
+//hook to set permission attributes
+
+function IronTouch_perm(){
+		
+		return array('Assigned work configuration','completed work configuration','Billed work catalogue','invoice mail');
+}
+	
+
+
+function IronTouch_theme(){
+	
+	return array(
+	
+		'homepage_view' => array(
+		'arguments' => array('theme' => $theme),
+		'template' => 'homepage-view',
+		),
+	);
+
+}
+
+
+function IronTouch_menu(){
+	$items=array();
+	$items['home'] = array(
+		'page callback'    => 'homepage',
+		'access arguments' => array('access content'),
+		'type'             => MENU_NORMAL_ITEM,
+	);
+	
+	return $items;
+}	
+
+
+function homepage(){
+	
+	global $base_url;
+	 
+	 drupal_add_css(drupal_get_path('module', 'IronTouch') . '/css/style.css');
+	 drupal_add_js(drupal_get_path('module', 'IronTouch') . '/js/jquery.js');
+     drupal_add_js(drupal_get_path('module', 'IronTouch') . '/js/scripts.js');
+	 drupal_add_js(drupal_get_path('module', 'IronTouch') . '/js/jquery-1.2.6.min.js');
+	 drupal_add_js(drupal_get_path('module', 'IronTouch') . '/js/js.js');
+	 drupal_add_css(drupal_get_path('module','IronTouch').'/css/css.css');
+	 drupal_add_js(drupal_get_path('module','jcarousel').'/js/jcarousel.js');
+	 drupal_add_js(drupal_get_path('module','jcarousel').'/js/jquery.jcarousel.js');
+	 
+	
+	return theme('homepage_view');
+	
+}
+
